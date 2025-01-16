@@ -2,8 +2,8 @@ kubernetesClusterDomain: cluster.local
 myapp:
   myapp:
     image:
-      repository: nginx
-      tag: "1.19"
+      repository: busybox
+      tag: "1.33"
   replicas: 1
 service:
   ports:
