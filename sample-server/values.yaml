@@ -3,7 +3,7 @@ myapp:
   myapp:
     image:
       repository: nanajanashia/argocd-app
-      tag: "1.2"
+      tag: "1.1"
   replicas: 1
 service:
   ports:
