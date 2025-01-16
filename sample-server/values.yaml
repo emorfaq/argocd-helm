@@ -2,8 +2,8 @@ kubernetesClusterDomain: cluster.local
 myapp:
   myapp:
     image:
-      repository: busybox
-      tag: "1.33"
+      repository: nanajanashia/argocd-app
+      tag: "1.1"
   replicas: 1
 service:
   ports:
